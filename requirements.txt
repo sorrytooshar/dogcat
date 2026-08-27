@@ -2,3 +2,4 @@ fastai==2.7.13
 torch==2.0.1
 torchvision==0.15.2
 gradio
+numpy<2.0
