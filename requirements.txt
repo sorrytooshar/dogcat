@@ -1,4 +1,4 @@
-fastai
+fastai<2.8.0
 gradio
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
