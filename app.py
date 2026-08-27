@@ -4,7 +4,7 @@ os.environ['MKL_NUM_THREADS'] = '1'
 import gradio as gr
 from fastai.vision.all import *
 import os
-
+def is_cat(x): return x[0].isupper() 
 learn = load_learner('model.pkl')
 
 def predict(img):
