@@ -1,5 +1,4 @@
-fastai<2.8.0
+fastai==2.7.13
+torch==2.0.1
+torchvision==0.15.2
 gradio
---extra-index-url https://download.pytorch.org/whl/cpu
-torch
-torchvision
